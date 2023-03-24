@@ -55,7 +55,7 @@ const Contact = () => {
           >
             <p>
               Estação Ferroviária de São Carlos<br/>
-              Praça Antonio Prado, São Carlos - SP<br/>
+              Praça Antônio Prado, São Carlos - SP<br/>
               CEP 13569-532 | <MapsButton />
             </p>
           </Col>
