@@ -4,7 +4,7 @@ This is the landing page of the Karlbruder fencing guild =D
 
 The purpose of this page is to be a short display of what the group is about and also link to other social media and forms of contact.
 
-The site was build using **React** and will be hosted on the clound under the domain ***karlbruder.com***
+The site was build using **React** and will be hosted on the clound under the domain <a href='http://karlbruder.com'>karlbruder.com</a>
 
 ---
 
@@ -21,7 +21,7 @@ The page is divided in smaller React components, those are:
 
 ## Installation
 
-The dependencies are listed in the <a href='./package.json'>package.json</a> file. To install all dependencies, run the following:
+The dependencies are listed in the <a href='./package.json' target='_blank'>package.json</a> file. To install all dependencies, run the following:
 > npm install
 
 
