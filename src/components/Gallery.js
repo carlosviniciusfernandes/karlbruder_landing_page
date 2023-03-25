@@ -27,8 +27,6 @@ const galleryPhotos = [
 const openFullSize = (e) => {
   e.preventDefault();
   e.stopPropagation();
-
-  //TODO open the fullsized photo on a modal
 }
 
 const PhotosGrid = ({ photos }) => {
@@ -36,14 +34,18 @@ const PhotosGrid = ({ photos }) => {
     <>
       {photos.map(photo => (
         <Col lg={4} sm={6} className='d-inline-block'>
-          {/* <a href='#' onClick={openFullSize}> */}
+          {/* TODO open the fullsized photo on a modal
+          <a href='#' onClick={openFullSize}>
             <img
-              src={process.env.PUBLIC_URL + `/gallery/thumbnails/${photo}`}
-              className='d-inline-block img-fluid'
-              width='640px'
-              style={{width: '100%'}}
-            />
-          {/* </a> */}
+              src={process.env.PUBLIC_URL + `/gallery/${photo}`}
+              style={{width: '640px', height: '350px', objectFit:'cover'}}
+              />
+          </a>
+          */}
+          <img
+            src={process.env.PUBLIC_URL + `/gallery/${photo}`}
+            style={{width: '100%'}}
+          />
         </Col>
       ))}
     </>

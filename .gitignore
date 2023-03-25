@@ -25,5 +25,4 @@ yarn-error.log*
 .vscode
 
 # media
-/public/gallery/fullsize
-/public/gallery/original
+/photos

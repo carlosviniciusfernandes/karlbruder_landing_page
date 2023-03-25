@@ -15,7 +15,7 @@ const Header = () => {
       <Container fluid className='px-5'>
         <Navbar.Brand href='#'>
           <img
-            src={process.env.PUBLIC_URL + '/logo_white_with_name.png'}
+            src={process.env.PUBLIC_URL + '/logos/logo_white_with_name.png'}
             height='60vh'
             className='d-inline-block align-top'
             alt='Karlbruder logo'
