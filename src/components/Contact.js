@@ -22,7 +22,7 @@ const HomeButton = () => {
 const WhatsappButton = () => {
   return (
     <a href="https://wa.me/5516997632102" target="_blank">
-      <img src={process.env.PUBLIC_URL + '/icons/whatsapp.png'} width="38px" height="38px" hspace="5" />
+      <img src={process.env.PUBLIC_URL + '/icons/whatsapp.png'} height="38px" hspace="5" />
     </a>
   )
 }
@@ -30,7 +30,7 @@ const WhatsappButton = () => {
 const InstagramButton = () => {
   return (
     <a href="https://www.instagram.com/karlbruder.hema/?hl=pt-br" target="_blank">
-      <img src={process.env.PUBLIC_URL + '/icons/instagram.png'} width="38px" height="38px" hspace="5" />
+      <img src={process.env.PUBLIC_URL + '/icons/instagram.png'} height="38px" hspace="5" />
     </a>
   )
 }
@@ -38,7 +38,7 @@ const InstagramButton = () => {
 const YoutubeButton = () => {
   return (
     <a href="https://www.youtube.com/channel/UCEzgHTyAzDwL1-KTYvd9m4w" target="_blank">
-      <img src={process.env.PUBLIC_URL + '/icons/youtube.png'} width="38px" height="38px" hspace="5" />
+      <img src={process.env.PUBLIC_URL + '/icons/youtube.png'} height="38px" hspace="5" />
     </a>
   )
 }
