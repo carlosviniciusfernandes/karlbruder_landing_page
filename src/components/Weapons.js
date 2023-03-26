@@ -7,7 +7,7 @@ const Weapons = () => {
         <div id='weapons'>
             <Container fluid className='bg-black text-white text-center pt-3'>
                 <Row className='justify-content-center'>
-                    <Col xs={2} className='text-center'>
+                    <Col xs={6} md={3} className='text-center'>
                         <h3>Modalidades</h3>
                         <hr/>
                     </Col>

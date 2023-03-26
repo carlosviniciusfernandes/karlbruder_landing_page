@@ -61,7 +61,7 @@ const Contact = () => {
           </Col>
 
           <Col
-            className='d-flex justify-content-center align-items-center'
+            className='d-flex justify-content-center align-items-center pb-3'
             xs={12} sm={6}
           >
             <HomeButton /><WhatsappButton /><InstagramButton /><YoutubeButton />
